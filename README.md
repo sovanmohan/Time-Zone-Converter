@@ -52,13 +52,17 @@
 ```bash
 git clone https://github.com/your-username/time-zone-converter.git
 cd time-zone-converter
+```
 ### Compile and Run
   If you're using Maven:
+  ```bash
   mvn compile
   mvn exec:java -Dexec.mainClass="com.example.TimeZoneConverter"
+```
 Otherwise, you can compile and run manually:
+```bash
 javac src/com/example/TimeZoneConverter.java
 java src/com/example/TimeZoneConverter
-
+```
 
 
